@@ -1,4 +1,4 @@
-<img src="img/header.png">
+<img src="/img/header.png">
 
 ## Hi there 👋
 
