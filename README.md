@@ -1,4 +1,9 @@
-### Hi there 👋
+<img src="./img/header.png">
+
+## Hi there 👋
+
+My name is Igor, and I am a front-end developer at Tinkoff.ru.
+I call myself an Angular researcher. I love Angular. I almost idolize Angular. I write about Angular and Javascript on my [Twitter](https://twitter.com/katsuba_igor)
 
 <!--
 **IKatsuba/ikatsuba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
