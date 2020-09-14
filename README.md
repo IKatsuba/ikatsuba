@@ -6,7 +6,7 @@ My name is Igor, and I am a front-end developer at Tinkoff.ru.
 I call myself an Angular researcher. I love Angular. I almost idolize Angular. I write about Angular and Javascript on my [Twitter](https://twitter.com/katsuba_igor). And you can by me a coffee!
 
 <a href="https://www.buymeacoffee.com/katsuba" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="41" width="174" style="box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
 </a>
 
 <!--
