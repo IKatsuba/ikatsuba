@@ -1,4 +1,4 @@
-<img src="/IKatsuba/ikatsuba/raw/master/img/header.png">
+<img src="master/img/header.png?raw=true">
 
 ## Hi there 👋
 
