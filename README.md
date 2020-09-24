@@ -1,4 +1,4 @@
-<img src="master/img/header.png?raw=true">
+<img src="img/header.png?raw=true">
 
 ## Hi there 👋
 
