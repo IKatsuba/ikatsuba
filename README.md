@@ -1,25 +1,10 @@
-<img src="img/header.png?raw=true">
+# README
+
+![](.gitbook/assets/image.png)
 
 ## Hi there 👋
 
-My name is Igor, and I am a front-end developer at Tinkoff.ru.
-I call myself an Angular researcher. I love Angular. I almost idolize Angular. I write about Angular and Javascript on my [Twitter](https://twitter.com/katsuba_igor). And you can buy me a coffee!
+My name is Igor, and I am a front-end developer at Tinkoff.ru. I call myself an Angular researcher. I love Angular. I almost idolize Angular. I write about Angular and Javascript on my [Twitter](https://twitter.com/katsuba_igor). And you can buy me a coffee!
 
-<a href="https://www.buymeacoffee.com/katsuba" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="41" width="174" style="box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
-</a>
+ [![](https://cdn.buymeacoffee.com/buttons/v2/default-blue.png)](https://www.buymeacoffee.com/katsuba)
 
-<!--
-**IKatsuba/ikatsuba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
