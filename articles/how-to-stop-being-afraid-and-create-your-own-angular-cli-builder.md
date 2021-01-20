@@ -1,6 +1,6 @@
 # How to stop being afraid and create your own Angular CLI Builder
 
-> _You can find the original article_ [_here_](https://indepth.dev/posts/1371/how-to-create-your-own-angular-builder)\_\_
+> _Originally published at_ [_indepth.dev_](https://indepth.dev/posts/1371/how-to-create-your-own-angular-builder)
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
