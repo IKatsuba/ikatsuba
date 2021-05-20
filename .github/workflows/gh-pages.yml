@@ -1,0 +1,31 @@
+name: Github Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 12.x
+      - name: Install deps
+        run: |
+          npm ci
+        env:
+          CI: true
+      - name: Build
+        run: |
+          npx nx prerender
+        env:
+          CI: true
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./dist/readme/browser
