@@ -1,8 +1,8 @@
 module.exports = {
   prefix: '',
   purge: {
-    enabled: process.argv.some(str => str.endsWith(':production')),
-    content: ['./src/**/*.{html,ts}'],
+    enabled: process.argv.some((str) => str.endsWith(':production')),
+    content: ['apps/readme/src/**/*.{html,ts}'],
   },
   darkMode: 'class',
   theme: {

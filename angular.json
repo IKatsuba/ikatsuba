@@ -41,7 +41,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/apps/readme",
+            "outputPath": "dist/readme/browser",
             "index": "apps/readme/src/index.html",
             "main": "apps/readme/src/main.ts",
             "polyfills": "apps/readme/src/polyfills.ts",
@@ -118,6 +118,65 @@
             "jestConfig": "apps/readme/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/readme/server",
+            "main": "apps/readme/server.ts",
+            "tsConfig": "apps/readme/tsconfig.server.json",
+            "inlineStyleLanguage": "scss"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media",
+              "fileReplacements": [
+                {
+                  "replace": "apps/readme/src/environments/environment.ts",
+                  "with": "apps/readme/src/environments/environment.prod.ts"
+                }
+              ]
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "readme:build:development",
+              "serverTarget": "readme:server:development"
+            },
+            "production": {
+              "browserTarget": "readme:build:production",
+              "serverTarget": "readme:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "readme:build:production",
+              "serverTarget": "readme:server:production"
+            },
+            "development": {
+              "browserTarget": "readme:build:development",
+              "serverTarget": "readme:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     },
