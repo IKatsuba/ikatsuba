@@ -24,6 +24,8 @@ jobs:
           npx nx prerender
         env:
           CI: true
+          NX_BRANCH: ${{ github.event.pull_request.head.ref }}
+          NX_RUN_GROUP: ${{ github.run_id }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
