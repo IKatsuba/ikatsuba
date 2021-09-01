@@ -14,12 +14,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "NGRiMDViYjItYzA4Zi00ODM5LWJkOWEtNDIzODczNjYxYzNifHJlYWQtd3JpdGU=",
         "canTrackAnalytics": false,
         "showUsageWarnings": true
@@ -32,9 +27,15 @@
     },
     "readme-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "readme"
-      ]
+      "implicitDependencies": ["readme"]
     }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
   }
 }
