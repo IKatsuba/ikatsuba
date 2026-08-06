@@ -1,7 +1,0 @@
-<svg width="840" height="156" viewBox="0 0 840 156" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
-  <rect x="0.5" y="0.5" width="839" height="155" rx="10" fill="#ffffff" stroke="#e5e5e5"/>
-  <text x="32" y="34" font-size="13" fill="#a1a1a1">// manifest</text>
-  <text x="32" y="68" font-size="17" fill="#0a0a0a" font-weight="600">I build software whose users are increasingly not people. Agents</text>
-  <text x="32" y="96" font-size="17" fill="#0a0a0a" font-weight="600">call it, other systems depend on it, and it has to keep working</text>
-  <text x="32" y="124" font-size="17" fill="#0a0a0a" font-weight="600">when nobody's watching.</text>
-</svg>

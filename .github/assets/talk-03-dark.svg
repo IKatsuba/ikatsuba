@@ -1,6 +1,0 @@
-<svg width="840" height="56" viewBox="0 0 840 56" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
-  <rect x="0.5" y="0.5" width="839" height="55" rx="10" fill="#0a0a0a" stroke="#ffffff1a"/>
-  <polygon points="32,22 32,34 43,28" fill="#737373"/>
-  <text x="58" y="33" font-size="14" fill="#fafafa" font-weight="600">It's all about Nx</text>
-  <text x="814" y="33" font-size="13" fill="#a1a1a1" text-anchor="end">Podlodka 2022 →</text>
-</svg>
