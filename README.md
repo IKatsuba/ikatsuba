@@ -1,32 +1,66 @@
-# README
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.svg">
+  <img src=".github/assets/hero-light.svg" alt="$ ./katsuba --serve — Igor Katsuba, a system exposed over a few transports. status: 200 OK" width="100%">
+</picture>
 
-![](apps/readme/src/assets/image.png)
+```jsonc
+// manifest
+// I build software whose users are increasingly not people.
+// Agents call it, other systems depend on it, and it has to
+// keep working when nobody's watching.
+```
 
-<h3 align="center">
-Hi there, I'm <a href="https://blog.katsuba.dev/" target="_blank" rel="noreferrer">Igor</a> 👋
-</h3>
+### `GET /about` — `200 OK · text/plain`
 
-<h2 align="center">
-I'm a Web Developer 💻, Author 🖊 and Speaker 🗣!
-</h2> 
+I'm a senior engineer working out of Valencia. For the last while I've been living at the seam between AI agents and backend infrastructure — the unglamorous layer that decides whether the clever stuff on top actually holds.
 
-I love JavaScript and its ecosystem. I used to love building websites, but now I'm more interested in setting up CI/CD and writing build tooling.
+The framing on this page isn't a gimmick. It's genuinely how I think about building: define a capability once, expose it through whatever transport the caller speaks — HTTP, MCP, a CLI. Same idea applies to a person. This is me, exposed over the transports below.
 
-### 🤝 Connect with me:
+```rust
+fn building()  // Durable execution, agent orchestration, developer tooling,
+               // the glue between systems. Happiest one layer below the product,
+               // where reliability is the whole job.
 
-[![Twitter Follow](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/katsuba_igor)
-[![Instagram Follow](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/igor.katsuba/)
-[![Blog Follow](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.katsuba.dev)
-- 💬 If you have any question/feedback, please do not hesitate to reach out to me!
+fn writing()   // A Telegram channel on Angular and frontend, a blog with 20+
+               // articles. Explaining things is how I understand them.
 
-## 📝 Latest Blog Posts
+fn speaking()  // Talks on monorepos, build tooling, and pipeline acceleration.
+               // The recordings age; the problems they solve mostly don't.
+```
 
-- [Mutate a code like a boss — with Angular schematics](https://medium.com/its-tinkoff/mutate-a-code-like-a-boss-with-angular-schematics-ec3415712d5)
-- [Angular Universal: real app problems](https://medium.com/its-tinkoff/angular-universal-real-app-problems-b008b80396b4)
-- [Features of Angular DI, about which almost nothing is said in the documentation](https://medium.com/its-tinkoff/features-of-angular-di-about-which-almost-nothing-is-said-in-the-documentation-45ef8485742a)
+### `GET /tools` — `200 OK · 7 items · application/json`
 
-## 📈 GitHub Stats 
+| # | tool | description |
+|---|------|-------------|
+| `01` | [`ng.guide`](https://ng.guide) | An Angular course an agent takes itself. Delivered over MCP, built for the world where the student isn't always human. |
+| `02` | [`roost`](https://github.com/IKatsuba/roost) | A native macOS workspace for Claude Code sessions — projects, tabs, a tree of terminal panes, and an attention queue that tells you which agent is stuck. |
+| `03` | [`nx-cache-server`](https://github.com/IKatsuba/nx-cache-server) | Self-hosted remote cache for Nx. S3, Docker, Helm — bring your own infra, keep your build times. |
+| `04` | [`mutates`](https://github.com/IKatsuba/mutates) | AST mutation toolkit — mutate the AST, not your brain. Hands for an agent that needs to rewrite code and be sure it did. |
+| `05` | [`ng-http`](https://github.com/IKatsuba/ng-http) | Experimental declarative HTTP server written with Angular. What if your backend spoke the framework your frontend already does? |
+| `06` | [`deno-mastra`](https://github.com/IKatsuba/deno-mastra) | AI agents built with Deno and the Mastra framework — the runtime and the orchestration, end to end. |
+| `07` | [`serverless-redis`](https://github.com/IKatsuba/serverless-redis) | HTTP → Redis server, Upstash-compatible. Hono + Deno, one click to deploy on Railway. |
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=IKatsuba)](https://github.com/IKatsuba)
+### `GET /speaking` — `200 OK · 3 talks · video`
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IKatsuba&layout=compact)](https://github.com/IKatsuba)
+- [**Repository evolution: from simple to complex**](https://www.youtube.com/watch?v=pqV863ysMRQ) — Frontend Conf 2021
+- [**Extreme Pipeline Acceleration**](https://youtu.be/j0OhmZeAoKQ) — CodeFest Russia 2022
+- [**It's all about Nx**](https://www.youtube.com/watch?v=D-JwmfQKfIE) — Podlodka 2022
+
+### `GET /experience` — `200 OK · 4 roles · résumé`
+
+| company | role | period |
+|---------|------|--------|
+| **Plata Card** | Principal Engineer | `2022–2025` |
+| **Tinkoff** | Staff Engineer | `2020–2022` |
+| **Fix Group** | Senior Frontend Developer | `2018–2020` |
+| **RTLabs** | Frontend Developer | `2014–2018` |
+
+### `POST /contact` — `accepting connections`
+
+If you want to talk infrastructure, agents, or the tooling underneath both — or just argue about durable execution — open a connection.
+
+**→** [`github`](https://github.com/IKatsuba) &nbsp; **→** [`x`](https://x.com/katsuba_igor) &nbsp; **→** [`instagram`](https://www.instagram.com/igor.katsuba/) &nbsp; **→** [`telegram`](https://t.me/Katsuba) &nbsp; **→** [`email`](mailto:igor@katsuba.dev)
+
+---
+
+<p align="center"><sub><a href="https://katsuba.dev"><code>katsuba.dev</code></a> · connection closed · <code>200</code></sub></p>

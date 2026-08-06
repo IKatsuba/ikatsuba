@@ -1,0 +1,17 @@
+<svg width="840" height="248" viewBox="0 0 840 248" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="839" height="247" rx="10" fill="#ffffff" stroke="#e5e5e5"/>
+  <line x1="1" y1="41" x2="839" y2="41" stroke="#e5e5e5"/>
+  <circle cx="26" cy="21" r="4.5" fill="#e5e5e5"/>
+  <circle cx="42" cy="21" r="4.5" fill="#e5e5e5"/>
+  <circle cx="58" cy="21" r="4.5" fill="#e5e5e5"/>
+  <text x="80" y="25.5" font-size="13" fill="#737373">katsuba.dev</text>
+  <text x="814" y="25.5" font-size="13" fill="#a1a1a1" text-anchor="end">:8080</text>
+  <text x="32" y="78" font-size="14" fill="#737373" xml:space="preserve">$ <tspan fill="#0a0a0a">./katsuba --serve</tspan></text>
+  <rect x="202" y="65" width="8" height="16" fill="#0a0a0a">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="32" y="118" font-size="19" font-weight="600" fill="#0a0a0a">Igor Katsuba — a system exposed over a few transports.</text>
+  <text x="32" y="156" font-size="14" fill="#737373" xml:space="preserve">capabilities:  <tspan fill="#0a0a0a">[ building, writing, speaking ]</tspan></text>
+  <text x="32" y="182" font-size="14" fill="#737373" xml:space="preserve">transports:    <tspan fill="#0a0a0a">[ github · telegram · email ]</tspan></text>
+  <text x="32" y="208" font-size="14" fill="#737373" xml:space="preserve">status:        <tspan fill="#0a0a0a">200 OK — up and serving traffic</tspan></text>
+</svg>
