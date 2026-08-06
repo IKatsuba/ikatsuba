@@ -1,0 +1,145 @@
+<svg width="480" height="2897" viewBox="0 0 480 2897" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="479" height="2896" rx="10" fill="#0a0a0a" stroke="#ffffff1a"/>
+  <circle cx="18" cy="21" r="4.5" fill="#262626"/>
+  <circle cx="34" cy="21" r="4.5" fill="#262626"/>
+  <circle cx="50" cy="21" r="4.5" fill="#262626"/>
+  <text x="72" y="25.5" font-size="13" fill="#a1a1a1">katsuba.dev</text>
+  <text x="462" y="25.5" font-size="13" fill="#737373" text-anchor="end">:8080</text>
+  <line x1="1" y1="41" x2="479" y2="41" stroke="#ffffff1a"/>
+  <text x="24" y="78" font-size="14" fill="#737373" xml:space="preserve">$ <tspan fill="#fafafa">./katsuba --serve</tspan></text>
+  <rect x="194" y="65" width="8" height="16" fill="#fafafa"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  <text x="24" y="118" font-size="18" fill="#fafafa" font-weight="600">Igor Katsuba — a system exposed</text>
+  <text x="24" y="146" font-size="18" fill="#fafafa" font-weight="600">over a few transports.</text>
+  <text x="24" y="184" font-size="13" fill="#737373" xml:space="preserve">capabilities:  <tspan fill="#fafafa">[ building, writing, speaking ]</tspan></text>
+  <text x="24" y="210" font-size="13" fill="#737373" xml:space="preserve">transports:    <tspan fill="#fafafa">[ github · telegram · email ]</tspan></text>
+  <text x="24" y="236" font-size="13" fill="#737373" xml:space="preserve">status:        <tspan fill="#fafafa">200 OK — up and serving traffic</tspan></text>
+  <line x1="1" y1="276" x2="479" y2="276" stroke="#ffffff1a"/>
+  <text x="24" y="310" font-size="13" fill="#737373">// manifest</text>
+  <text x="24" y="342" font-size="16" fill="#fafafa" font-weight="600">I build software whose users are</text>
+  <text x="24" y="368" font-size="16" fill="#fafafa" font-weight="600">increasingly not people. Agents call</text>
+  <text x="24" y="394" font-size="16" fill="#fafafa" font-weight="600">it, other systems depend on it, and it</text>
+  <text x="24" y="420" font-size="16" fill="#fafafa" font-weight="600">has to keep working when nobody's</text>
+  <text x="24" y="446" font-size="16" fill="#fafafa" font-weight="600">watching.</text>
+  <line x1="1" y1="484" x2="479" y2="484" stroke="#ffffff1a"/>
+  <rect x="24" y="494" width="40" height="24" rx="6" fill="#262626"/>
+  <text x="44.0" y="510" font-size="12" fill="#fafafa" font-weight="600" text-anchor="middle">GET</text>
+  <text x="76" y="510.5" font-size="14" fill="#fafafa" font-weight="600">/about</text>
+  <text x="456" y="510" font-size="12" fill="#a1a1a1" text-anchor="end">200 OK</text>
+  <text x="24" y="550" font-size="13" fill="#a1a1a1">I'm a senior engineer working out of Valencia.</text>
+  <text x="24" y="571" font-size="13" fill="#a1a1a1">For the last while I've been living at the seam</text>
+  <text x="24" y="592" font-size="13" fill="#a1a1a1">between AI agents and backend infrastructure —</text>
+  <text x="24" y="613" font-size="13" fill="#a1a1a1">the unglamorous layer that decides whether the</text>
+  <text x="24" y="634" font-size="13" fill="#a1a1a1">clever stuff on top actually holds.</text>
+  <text x="24" y="667" font-size="13" fill="#a1a1a1">The framing on this page isn't a gimmick. It's</text>
+  <text x="24" y="688" font-size="13" fill="#a1a1a1">genuinely how I think about building: define a</text>
+  <text x="24" y="709" font-size="13" fill="#a1a1a1">capability once, expose it through whatever</text>
+  <text x="24" y="730" font-size="13" fill="#a1a1a1">transport the caller speaks — HTTP, MCP, a CLI.</text>
+  <text x="24" y="751" font-size="13" fill="#a1a1a1">Same idea applies to a person. This is me,</text>
+  <text x="24" y="772" font-size="13" fill="#a1a1a1">exposed over the transports below.</text>
+  <line x1="24" y1="809" x2="456" y2="809" stroke="#ffffff1a"/>
+  <text x="24" y="839" font-size="14" fill="#fafafa" font-weight="600">fn building()</text>
+  <text x="24" y="863" font-size="13" fill="#a1a1a1">Durable execution, agent orchestration, developer</text>
+  <text x="24" y="884" font-size="13" fill="#a1a1a1">tooling, the glue between systems. I'm happiest</text>
+  <text x="24" y="905" font-size="13" fill="#a1a1a1">one layer below the product, where reliability is</text>
+  <text x="24" y="926" font-size="13" fill="#a1a1a1">the whole job.</text>
+  <text x="24" y="961" font-size="14" fill="#fafafa" font-weight="600">fn writing()</text>
+  <text x="24" y="985" font-size="13" fill="#a1a1a1">I run a Telegram channel on Angular and frontend,</text>
+  <text x="24" y="1006" font-size="13" fill="#a1a1a1">and a blog with 20+ articles. Explaining things</text>
+  <text x="24" y="1027" font-size="13" fill="#a1a1a1">is how I understand them, and it turns out other</text>
+  <text x="24" y="1048" font-size="13" fill="#a1a1a1">people find it useful too.</text>
+  <text x="24" y="1083" font-size="14" fill="#fafafa" font-weight="600">fn speaking()</text>
+  <text x="24" y="1107" font-size="13" fill="#a1a1a1">Conference talks on monorepos, build tooling, and</text>
+  <text x="24" y="1128" font-size="13" fill="#a1a1a1">pipeline acceleration — Frontend Conf, CodeFest,</text>
+  <text x="24" y="1149" font-size="13" fill="#a1a1a1">Podlodka. The recordings age; the problems they</text>
+  <text x="24" y="1170" font-size="13" fill="#a1a1a1">solve mostly don't.</text>
+  <line x1="1" y1="1209" x2="479" y2="1209" stroke="#ffffff1a"/>
+  <rect x="24" y="1219" width="40" height="24" rx="6" fill="#262626"/>
+  <text x="44.0" y="1235" font-size="12" fill="#fafafa" font-weight="600" text-anchor="middle">GET</text>
+  <text x="76" y="1235.5" font-size="14" fill="#fafafa" font-weight="600">/tools</text>
+  <text x="456" y="1235" font-size="12" fill="#a1a1a1" text-anchor="end">200 OK · 7</text>
+  <text x="24" y="1275" font-size="13" fill="#737373">01</text>
+  <text x="64" y="1275" font-size="15" fill="#fafafa" font-weight="600">ng.guide</text>
+  <text x="24" y="1299" font-size="13" fill="#a1a1a1">An Angular course an agent takes itself.</text>
+  <text x="24" y="1320" font-size="13" fill="#a1a1a1">Delivered over MCP, built for the world where the</text>
+  <text x="24" y="1341" font-size="13" fill="#a1a1a1">student isn't always human.</text>
+  <text x="24" y="1378" font-size="13" fill="#737373">02</text>
+  <text x="64" y="1378" font-size="15" fill="#fafafa" font-weight="600">roost</text>
+  <text x="24" y="1402" font-size="13" fill="#a1a1a1">A native macOS workspace for Claude Code sessions</text>
+  <text x="24" y="1423" font-size="13" fill="#a1a1a1">— projects, tabs, a tree of terminal panes, and</text>
+  <text x="24" y="1444" font-size="13" fill="#a1a1a1">an attention queue that tells you which agent is</text>
+  <text x="24" y="1465" font-size="13" fill="#a1a1a1">stuck.</text>
+  <text x="24" y="1502" font-size="13" fill="#737373">03</text>
+  <text x="64" y="1502" font-size="15" fill="#fafafa" font-weight="600">nx-cache-server</text>
+  <text x="24" y="1526" font-size="13" fill="#a1a1a1">Self-hosted remote cache for Nx. S3, Docker, Helm</text>
+  <text x="24" y="1547" font-size="13" fill="#a1a1a1">— bring your own infra, keep your build times.</text>
+  <text x="24" y="1584" font-size="13" fill="#737373">04</text>
+  <text x="64" y="1584" font-size="15" fill="#fafafa" font-weight="600">mutates</text>
+  <text x="24" y="1608" font-size="13" fill="#a1a1a1">AST mutation toolkit — mutate the AST, not your</text>
+  <text x="24" y="1629" font-size="13" fill="#a1a1a1">brain. Hands for an agent that needs to rewrite</text>
+  <text x="24" y="1650" font-size="13" fill="#a1a1a1">code and be sure it did.</text>
+  <text x="24" y="1687" font-size="13" fill="#737373">05</text>
+  <text x="64" y="1687" font-size="15" fill="#fafafa" font-weight="600">ng-http</text>
+  <text x="24" y="1711" font-size="13" fill="#a1a1a1">Experimental declarative HTTP server written with</text>
+  <text x="24" y="1732" font-size="13" fill="#a1a1a1">Angular. What if your backend spoke the framework</text>
+  <text x="24" y="1753" font-size="13" fill="#a1a1a1">your frontend already does?</text>
+  <text x="24" y="1790" font-size="13" fill="#737373">06</text>
+  <text x="64" y="1790" font-size="15" fill="#fafafa" font-weight="600">deno-mastra</text>
+  <text x="24" y="1814" font-size="13" fill="#a1a1a1">AI agents built with Deno and the Mastra</text>
+  <text x="24" y="1835" font-size="13" fill="#a1a1a1">framework — the runtime and the orchestration,</text>
+  <text x="24" y="1856" font-size="13" fill="#a1a1a1">end to end.</text>
+  <text x="24" y="1893" font-size="13" fill="#737373">07</text>
+  <text x="64" y="1893" font-size="15" fill="#fafafa" font-weight="600">serverless-redis</text>
+  <text x="24" y="1917" font-size="13" fill="#a1a1a1">HTTP → Redis server, Upstash-compatible. Hono +</text>
+  <text x="24" y="1938" font-size="13" fill="#a1a1a1">Deno, one click to deploy on Railway.</text>
+  <line x1="1" y1="1977" x2="479" y2="1977" stroke="#ffffff1a"/>
+  <rect x="24" y="1987" width="40" height="24" rx="6" fill="#262626"/>
+  <text x="44.0" y="2003" font-size="12" fill="#fafafa" font-weight="600" text-anchor="middle">GET</text>
+  <text x="76" y="2003.5" font-size="14" fill="#fafafa" font-weight="600">/speaking</text>
+  <text x="456" y="2003" font-size="12" fill="#a1a1a1" text-anchor="end">200 OK · 3</text>
+  <polygon points="24,2032 24,2044 35,2038" fill="#737373"/>
+  <text x="50" y="2043" font-size="14" fill="#fafafa" font-weight="600">Repository evolution: from simple to</text>
+  <text x="50" y="2065" font-size="14" fill="#fafafa" font-weight="600">complex</text>
+  <text x="50" y="2087" font-size="13" fill="#a1a1a1">Frontend Conf 2021</text>
+  <polygon points="24,2110 24,2122 35,2116" fill="#737373"/>
+  <text x="50" y="2121" font-size="14" fill="#fafafa" font-weight="600">Extreme Pipeline Acceleration</text>
+  <text x="50" y="2143" font-size="13" fill="#a1a1a1">CodeFest Russia 2022</text>
+  <polygon points="24,2166 24,2178 35,2172" fill="#737373"/>
+  <text x="50" y="2177" font-size="14" fill="#fafafa" font-weight="600">It's all about Nx</text>
+  <text x="50" y="2199" font-size="13" fill="#a1a1a1">Podlodka 2022</text>
+  <line x1="1" y1="2237" x2="479" y2="2237" stroke="#ffffff1a"/>
+  <rect x="24" y="2247" width="40" height="24" rx="6" fill="#262626"/>
+  <text x="44.0" y="2263" font-size="12" fill="#fafafa" font-weight="600" text-anchor="middle">GET</text>
+  <text x="76" y="2263.5" font-size="14" fill="#fafafa" font-weight="600">/experience</text>
+  <text x="456" y="2263" font-size="12" fill="#a1a1a1" text-anchor="end">200 OK · 4</text>
+  <text x="24" y="2303" font-size="14" fill="#fafafa" font-weight="600">Plata Card</text>
+  <text x="456" y="2303" font-size="13" fill="#737373" text-anchor="end">2022–2025</text>
+  <text x="24" y="2325" font-size="13" fill="#a1a1a1">Principal Engineer</text>
+  <line x1="24" y1="2343" x2="456" y2="2343" stroke="#ffffff1a"/>
+  <text x="24" y="2365" font-size="14" fill="#fafafa" font-weight="600">Tinkoff</text>
+  <text x="456" y="2365" font-size="13" fill="#737373" text-anchor="end">2020–2022</text>
+  <text x="24" y="2387" font-size="13" fill="#a1a1a1">Staff Engineer</text>
+  <line x1="24" y1="2405" x2="456" y2="2405" stroke="#ffffff1a"/>
+  <text x="24" y="2427" font-size="14" fill="#fafafa" font-weight="600">Fix Group</text>
+  <text x="456" y="2427" font-size="13" fill="#737373" text-anchor="end">2018–2020</text>
+  <text x="24" y="2449" font-size="13" fill="#a1a1a1">Senior Frontend Developer</text>
+  <line x1="24" y1="2467" x2="456" y2="2467" stroke="#ffffff1a"/>
+  <text x="24" y="2489" font-size="14" fill="#fafafa" font-weight="600">RTLabs</text>
+  <text x="456" y="2489" font-size="13" fill="#737373" text-anchor="end">2014–2018</text>
+  <text x="24" y="2511" font-size="13" fill="#a1a1a1">Frontend Developer</text>
+  <line x1="1" y1="2549" x2="479" y2="2549" stroke="#ffffff1a"/>
+  <rect x="24" y="2559" width="48" height="24" rx="6" fill="#262626"/>
+  <text x="48.0" y="2575" font-size="12" fill="#fafafa" font-weight="600" text-anchor="middle">POST</text>
+  <text x="84" y="2575.5" font-size="14" fill="#fafafa" font-weight="600">/contact</text>
+  <text x="456" y="2575" font-size="12" fill="#a1a1a1" text-anchor="end">accepting</text>
+  <text x="24" y="2615" font-size="13" fill="#a1a1a1">This server accepts connections. If you want to</text>
+  <text x="24" y="2636" font-size="13" fill="#a1a1a1">talk infrastructure, agents, or the tooling</text>
+  <text x="24" y="2657" font-size="13" fill="#a1a1a1">underneath both — or just argue about durable</text>
+  <text x="24" y="2678" font-size="13" fill="#a1a1a1">execution — open a connection.</text>
+  <text x="24" y="2715" font-size="13" fill="#737373" xml:space="preserve">→ <tspan fill="#fafafa" font-weight="600">github     </tspan><tspan fill="#a1a1a1">github.com/IKatsuba</tspan></text>
+  <text x="24" y="2739" font-size="13" fill="#737373" xml:space="preserve">→ <tspan fill="#fafafa" font-weight="600">x          </tspan><tspan fill="#a1a1a1">x.com/katsuba_igor</tspan></text>
+  <text x="24" y="2763" font-size="13" fill="#737373" xml:space="preserve">→ <tspan fill="#fafafa" font-weight="600">instagram  </tspan><tspan fill="#a1a1a1">instagram.com/igor.katsuba</tspan></text>
+  <text x="24" y="2787" font-size="13" fill="#737373" xml:space="preserve">→ <tspan fill="#fafafa" font-weight="600">telegram   </tspan><tspan fill="#a1a1a1">t.me/Katsuba</tspan></text>
+  <text x="24" y="2811" font-size="13" fill="#737373" xml:space="preserve">→ <tspan fill="#fafafa" font-weight="600">email      </tspan><tspan fill="#a1a1a1">igor@katsuba.dev</tspan></text>
+  <line x1="1" y1="2849" x2="479" y2="2849" stroke="#ffffff1a"/>
+  <text x="240.0" y="2875" font-size="12" fill="#737373" text-anchor="middle"><tspan fill="#a1a1a1">katsuba.dev</tspan> · connection closed · <tspan fill="#a1a1a1">200</tspan></text>
+</svg>

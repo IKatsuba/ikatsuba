@@ -92,20 +92,20 @@
   <text x="84" y="1765.5" font-size="14" fill="#fafafa" font-weight="600">/experience</text>
   <text x="808" y="1765" font-size="12" fill="#a1a1a1" text-anchor="end">200 OK · 4 roles · résumé</text>
   <text x="32" y="1805" font-size="14" fill="#fafafa" font-weight="600">Plata Card</text>
-  <text x="380" y="1805" font-size="13" fill="#a1a1a1">Principal Engineer</text>
   <text x="808" y="1805" font-size="13" fill="#737373" text-anchor="end">2022–2025</text>
+  <text x="380" y="1805" font-size="13" fill="#a1a1a1">Principal Engineer</text>
   <line x1="32" y1="1823" x2="808" y2="1823" stroke="#ffffff1a"/>
   <text x="32" y="1845" font-size="14" fill="#fafafa" font-weight="600">Tinkoff</text>
-  <text x="380" y="1845" font-size="13" fill="#a1a1a1">Staff Engineer</text>
   <text x="808" y="1845" font-size="13" fill="#737373" text-anchor="end">2020–2022</text>
+  <text x="380" y="1845" font-size="13" fill="#a1a1a1">Staff Engineer</text>
   <line x1="32" y1="1863" x2="808" y2="1863" stroke="#ffffff1a"/>
   <text x="32" y="1885" font-size="14" fill="#fafafa" font-weight="600">Fix Group</text>
-  <text x="380" y="1885" font-size="13" fill="#a1a1a1">Senior Frontend Developer</text>
   <text x="808" y="1885" font-size="13" fill="#737373" text-anchor="end">2018–2020</text>
+  <text x="380" y="1885" font-size="13" fill="#a1a1a1">Senior Frontend Developer</text>
   <line x1="32" y1="1903" x2="808" y2="1903" stroke="#ffffff1a"/>
   <text x="32" y="1925" font-size="14" fill="#fafafa" font-weight="600">RTLabs</text>
-  <text x="380" y="1925" font-size="13" fill="#a1a1a1">Frontend Developer</text>
   <text x="808" y="1925" font-size="13" fill="#737373" text-anchor="end">2014–2018</text>
+  <text x="380" y="1925" font-size="13" fill="#a1a1a1">Frontend Developer</text>
   <line x1="1" y1="1963" x2="839" y2="1963" stroke="#ffffff1a"/>
   <rect x="32" y="1973" width="48" height="24" rx="6" fill="#262626"/>
   <text x="56.0" y="1989" font-size="12" fill="#fafafa" font-weight="600" text-anchor="middle">POST</text>
