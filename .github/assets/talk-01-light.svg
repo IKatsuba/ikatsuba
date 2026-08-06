@@ -1,0 +1,6 @@
+<svg width="840" height="56" viewBox="0 0 840 56" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="839" height="55" rx="10" fill="#ffffff" stroke="#e5e5e5"/>
+  <polygon points="32,22 32,34 43,28" fill="#a1a1a1"/>
+  <text x="58" y="33" font-size="14" fill="#0a0a0a" font-weight="600">Repository evolution: from simple to complex</text>
+  <text x="814" y="33" font-size="13" fill="#737373" text-anchor="end">Frontend Conf 2021 →</text>
+</svg>

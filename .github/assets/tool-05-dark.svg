@@ -1,0 +1,8 @@
+<svg width="840" height="98" viewBox="0 0 840 98" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="839" height="97" rx="10" fill="#0a0a0a" stroke="#ffffff1a"/>
+  <text x="32" y="32" font-size="13" fill="#737373">05</text>
+  <text x="72" y="32" font-size="15" fill="#fafafa" font-weight="600">ng-http</text>
+  <text x="814" y="32" font-size="15" fill="#737373" text-anchor="end">→</text>
+  <text x="72" y="58" font-size="13" fill="#a1a1a1">Experimental declarative HTTP server written with Angular. What if your backend</text>
+  <text x="72" y="79" font-size="13" fill="#a1a1a1">spoke the framework your frontend already does?</text>
+</svg>

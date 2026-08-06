@@ -3,64 +3,117 @@
   <img src=".github/assets/hero-light.svg" alt="$ ./katsuba --serve — Igor Katsuba, a system exposed over a few transports. status: 200 OK" width="100%">
 </picture>
 
-```jsonc
-// manifest
-// I build software whose users are increasingly not people.
-// Agents call it, other systems depend on it, and it has to
-// keep working when nobody's watching.
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/manifest-dark.svg">
+  <img src=".github/assets/manifest-light.svg" alt="manifest: I build software whose users are increasingly not people. Agents call it, other systems depend on it, and it has to keep working when nobody's watching." width="100%">
+</picture>
 
-### `GET /about` — `200 OK · text/plain`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/about-dark.svg">
+  <img src=".github/assets/about-light.svg" alt="GET /about — senior engineer in Valencia, working at the seam between AI agents and backend infrastructure. Capabilities: building, writing, speaking." width="100%">
+</picture>
 
-I'm a senior engineer working out of Valencia. For the last while I've been living at the seam between AI agents and backend infrastructure — the unglamorous layer that decides whether the clever stuff on top actually holds.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tools-header-dark.svg">
+  <img src=".github/assets/tools-header-light.svg" alt="GET /tools — 200 OK, 7 items" width="100%">
+</picture>
 
-The framing on this page isn't a gimmick. It's genuinely how I think about building: define a capability once, expose it through whatever transport the caller speaks — HTTP, MCP, a CLI. Same idea applies to a person. This is me, exposed over the transports below.
+<a href="https://ng.guide">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-01-dark.svg">
+    <img src=".github/assets/tool-01-light.svg" alt="ng.guide — an Angular course an agent takes itself, delivered over MCP" width="100%">
+  </picture>
+</a>
 
-```rust
-fn building()  // Durable execution, agent orchestration, developer tooling,
-               // the glue between systems. Happiest one layer below the product,
-               // where reliability is the whole job.
+<a href="https://github.com/IKatsuba/roost">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-02-dark.svg">
+    <img src=".github/assets/tool-02-light.svg" alt="roost — a native macOS workspace for Claude Code sessions" width="100%">
+  </picture>
+</a>
 
-fn writing()   // A Telegram channel on Angular and frontend, a blog with 20+
-               // articles. Explaining things is how I understand them.
+<a href="https://github.com/IKatsuba/nx-cache-server">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-03-dark.svg">
+    <img src=".github/assets/tool-03-light.svg" alt="nx-cache-server — self-hosted remote cache for Nx" width="100%">
+  </picture>
+</a>
 
-fn speaking()  // Talks on monorepos, build tooling, and pipeline acceleration.
-               // The recordings age; the problems they solve mostly don't.
-```
+<a href="https://github.com/IKatsuba/mutates">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-04-dark.svg">
+    <img src=".github/assets/tool-04-light.svg" alt="mutates — AST mutation toolkit" width="100%">
+  </picture>
+</a>
 
-### `GET /tools` — `200 OK · 7 items · application/json`
+<a href="https://github.com/IKatsuba/ng-http">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-05-dark.svg">
+    <img src=".github/assets/tool-05-light.svg" alt="ng-http — experimental declarative HTTP server written with Angular" width="100%">
+  </picture>
+</a>
 
-| # | tool | description |
-|---|------|-------------|
-| `01` | [`ng.guide`](https://ng.guide) | An Angular course an agent takes itself. Delivered over MCP, built for the world where the student isn't always human. |
-| `02` | [`roost`](https://github.com/IKatsuba/roost) | A native macOS workspace for Claude Code sessions — projects, tabs, a tree of terminal panes, and an attention queue that tells you which agent is stuck. |
-| `03` | [`nx-cache-server`](https://github.com/IKatsuba/nx-cache-server) | Self-hosted remote cache for Nx. S3, Docker, Helm — bring your own infra, keep your build times. |
-| `04` | [`mutates`](https://github.com/IKatsuba/mutates) | AST mutation toolkit — mutate the AST, not your brain. Hands for an agent that needs to rewrite code and be sure it did. |
-| `05` | [`ng-http`](https://github.com/IKatsuba/ng-http) | Experimental declarative HTTP server written with Angular. What if your backend spoke the framework your frontend already does? |
-| `06` | [`deno-mastra`](https://github.com/IKatsuba/deno-mastra) | AI agents built with Deno and the Mastra framework — the runtime and the orchestration, end to end. |
-| `07` | [`serverless-redis`](https://github.com/IKatsuba/serverless-redis) | HTTP → Redis server, Upstash-compatible. Hono + Deno, one click to deploy on Railway. |
+<a href="https://github.com/IKatsuba/deno-mastra">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-06-dark.svg">
+    <img src=".github/assets/tool-06-light.svg" alt="deno-mastra — AI agents built with Deno and Mastra" width="100%">
+  </picture>
+</a>
 
-### `GET /speaking` — `200 OK · 3 talks · video`
+<a href="https://github.com/IKatsuba/serverless-redis">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/tool-07-dark.svg">
+    <img src=".github/assets/tool-07-light.svg" alt="serverless-redis — Upstash-compatible HTTP Redis server" width="100%">
+  </picture>
+</a>
 
-- [**Repository evolution: from simple to complex**](https://www.youtube.com/watch?v=pqV863ysMRQ) — Frontend Conf 2021
-- [**Extreme Pipeline Acceleration**](https://youtu.be/j0OhmZeAoKQ) — CodeFest Russia 2022
-- [**It's all about Nx**](https://www.youtube.com/watch?v=D-JwmfQKfIE) — Podlodka 2022
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/speaking-header-dark.svg">
+  <img src=".github/assets/speaking-header-light.svg" alt="GET /speaking — 200 OK, 3 talks" width="100%">
+</picture>
 
-### `GET /experience` — `200 OK · 4 roles · résumé`
+<a href="https://www.youtube.com/watch?v=pqV863ysMRQ">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/talk-01-dark.svg">
+    <img src=".github/assets/talk-01-light.svg" alt="Repository evolution: from simple to complex — Frontend Conf 2021" width="100%">
+  </picture>
+</a>
 
-| company | role | period |
-|---------|------|--------|
-| **Plata Card** | Principal Engineer | `2022–2025` |
-| **Tinkoff** | Staff Engineer | `2020–2022` |
-| **Fix Group** | Senior Frontend Developer | `2018–2020` |
-| **RTLabs** | Frontend Developer | `2014–2018` |
+<a href="https://youtu.be/j0OhmZeAoKQ">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/talk-02-dark.svg">
+    <img src=".github/assets/talk-02-light.svg" alt="Extreme Pipeline Acceleration — CodeFest Russia 2022" width="100%">
+  </picture>
+</a>
 
-### `POST /contact` — `accepting connections`
+<a href="https://www.youtube.com/watch?v=D-JwmfQKfIE">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/talk-03-dark.svg">
+    <img src=".github/assets/talk-03-light.svg" alt="It's all about Nx — Podlodka 2022" width="100%">
+  </picture>
+</a>
 
-If you want to talk infrastructure, agents, or the tooling underneath both — or just argue about durable execution — open a connection.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/experience-dark.svg">
+  <img src=".github/assets/experience-light.svg" alt="GET /experience — Plata Card, Principal Engineer (2022–2025); Tinkoff, Staff Engineer (2020–2022); Fix Group, Senior Frontend Developer (2018–2020); RTLabs, Frontend Developer (2014–2018)" width="100%">
+</picture>
 
-**→** [`github`](https://github.com/IKatsuba) &nbsp; **→** [`x`](https://x.com/katsuba_igor) &nbsp; **→** [`instagram`](https://www.instagram.com/igor.katsuba/) &nbsp; **→** [`telegram`](https://t.me/Katsuba) &nbsp; **→** [`email`](mailto:igor@katsuba.dev)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/contact-dark.svg">
+  <img src=".github/assets/contact-light.svg" alt="POST /contact — this server accepts connections" width="100%">
+</picture>
 
----
+<p>
+  <a href="https://github.com/IKatsuba"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/pill-github-dark.svg"><img src=".github/assets/pill-github-light.svg" alt="github"></picture></a>
+  <a href="https://x.com/katsuba_igor"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/pill-x-dark.svg"><img src=".github/assets/pill-x-light.svg" alt="x"></picture></a>
+  <a href="https://www.instagram.com/igor.katsuba/"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/pill-instagram-dark.svg"><img src=".github/assets/pill-instagram-light.svg" alt="instagram"></picture></a>
+  <a href="https://t.me/Katsuba"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/pill-telegram-dark.svg"><img src=".github/assets/pill-telegram-light.svg" alt="telegram"></picture></a>
+  <a href="mailto:igor@katsuba.dev"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/pill-email-dark.svg"><img src=".github/assets/pill-email-light.svg" alt="email"></picture></a>
+</p>
 
-<p align="center"><sub><a href="https://katsuba.dev"><code>katsuba.dev</code></a> · connection closed · <code>200</code></sub></p>
+<a href="https://katsuba.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/footer-dark.svg">
+    <img src=".github/assets/footer-light.svg" alt="katsuba.dev — connection closed · 200" width="100%">
+  </picture>
+</a>

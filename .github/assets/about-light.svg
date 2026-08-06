@@ -1,0 +1,27 @@
+<svg width="840" height="569" viewBox="0 0 840 569" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="839" height="568" rx="10" fill="#ffffff" stroke="#e5e5e5"/>
+  <rect x="32" y="15" width="40" height="24" rx="6" fill="#f5f5f5"/>
+  <text x="52.0" y="31.5" font-size="12" fill="#0a0a0a" font-weight="600" text-anchor="middle">GET</text>
+  <text x="84" y="32" font-size="14" fill="#0a0a0a" font-weight="600">/about</text>
+  <text x="814" y="31.5" font-size="12" fill="#737373" text-anchor="end">200 OK · text/plain</text>
+  <line x1="1" y1="54" x2="839" y2="54" stroke="#e5e5e5"/>
+  <text x="32" y="86" font-size="13" fill="#737373">I'm a senior engineer working out of Valencia. For the last while I've been living at the</text>
+  <text x="32" y="107" font-size="13" fill="#737373">seam between AI agents and backend infrastructure — the unglamorous layer that decides</text>
+  <text x="32" y="128" font-size="13" fill="#737373">whether the clever stuff on top actually holds.</text>
+  <text x="32" y="161" font-size="13" fill="#737373">The framing on this page isn't a gimmick. It's genuinely how I think about building:</text>
+  <text x="32" y="182" font-size="13" fill="#737373">define a capability once, expose it through whatever transport the caller speaks — HTTP,</text>
+  <text x="32" y="203" font-size="13" fill="#737373">MCP, a CLI. Same idea applies to a person. This is me, exposed over the transports below.</text>
+  <text x="32" y="236" font-size="13" fill="#737373">I work with teams in the US and Finland, write about frontend for a Russian-speaking</text>
+  <text x="32" y="257" font-size="13" fill="#737373">audience, and take on the kind of infrastructure work most people would rather not touch.</text>
+  <line x1="1" y1="284" x2="839" y2="284" stroke="#e5e5e5"/>
+  <text x="32" y="314" font-size="14" fill="#0a0a0a" font-weight="600">fn building()</text>
+  <text x="32" y="336" font-size="13" fill="#737373">Durable execution, agent orchestration, developer tooling, the glue between systems. I'm</text>
+  <text x="32" y="357" font-size="13" fill="#737373">happiest one layer below the product, where reliability is the whole job.</text>
+  <text x="32" y="392" font-size="14" fill="#0a0a0a" font-weight="600">fn writing()</text>
+  <text x="32" y="414" font-size="13" fill="#737373">I run a Telegram channel on Angular and frontend, and a blog with 20+ articles.</text>
+  <text x="32" y="435" font-size="13" fill="#737373">Explaining things is how I understand them, and it turns out other people find it useful</text>
+  <text x="32" y="456" font-size="13" fill="#737373">too.</text>
+  <text x="32" y="491" font-size="14" fill="#0a0a0a" font-weight="600">fn speaking()</text>
+  <text x="32" y="513" font-size="13" fill="#737373">Conference talks on monorepos, build tooling, and pipeline acceleration — Frontend Conf,</text>
+  <text x="32" y="534" font-size="13" fill="#737373">CodeFest, Podlodka. The recordings age; the problems they solve mostly don't.</text>
+</svg>
