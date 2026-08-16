@@ -44,19 +44,27 @@ MANIFEST = ("I build software whose users are increasingly not people. "
             "working when nobody's watching.")
 
 ABOUT_PARAGRAPHS = [
-    "I'm a senior engineer working out of Valencia. For the last while I've been "
+    "I'm a platform engineer working out of Valencia. For the last while I've been "
     "living at the seam between AI agents and backend infrastructure — the "
     "unglamorous layer that decides whether the clever stuff on top actually holds.",
     "The framing on this page isn't a gimmick. It's genuinely how I think about "
     "building: define a capability once, expose it through whatever transport the "
     "caller speaks — HTTP, MCP, a CLI. Same idea applies to a person. This is me, "
     "exposed over the transports below.",
+    "Nearly everything I've built has been for other engineers rather than for end "
+    "users: platform foundations, release paths, test corpora, the internal tools "
+    "nobody demos. That comes with the other half of the job — hiring for the team, "
+    "reviewing its code, and starting the weekly meeting where designs get argued "
+    "out loud.",
 ]
 
 FNS = [
     ("fn building()", "Durable execution, agent orchestration, developer tooling, the glue "
      "between systems. I'm happiest one layer below the product, where reliability "
      "is the whole job."),
+    ("fn leading()", "Platform teams, hiring tracks, and the weekly meeting where designs get "
+     "argued in public instead of in DMs. Building for other engineers is most of "
+     "what I do, and the people half comes with it."),
     ("fn writing()", "I run a Telegram channel on Angular and frontend, and a blog with 20+ "
      "articles. Explaining things is how I understand them, and it turns out other "
      "people find it useful too."),
@@ -66,7 +74,7 @@ FNS = [
 ]
 
 TOOLS = [
-    ("01", "ng.guide", "An Angular course an agent takes itself. Delivered over MCP, "
+    ("01", "NGGUIDE", "An Angular course an agent takes itself. Delivered over MCP, "
      "built for the world where the student isn't always human."),
     ("02", "roost", "A native macOS workspace for Claude Code sessions — projects, tabs, a tree "
      "of terminal panes, and an attention queue that tells you which agent is stuck."),
@@ -89,11 +97,22 @@ TALKS = [
 ]
 
 ROLES = [
-    ("Plata Card", "Principal Engineer", "2022–2025"),
-    ("Tinkoff", "Staff Engineer", "2020–2022"),
-    ("Fix Group", "Senior Frontend Developer", "2018–2020"),
-    ("RTLabs", "Frontend Developer", "2014–2018"),
+    ("ManifestLabs", "Platform Team", "2025 —",
+     "Legal-tech SaaS. The platform, the release path, the incident root cause, and "
+     "the company's internal AI agent platform."),
+    ("Plata Card", "Principal Engineer · Frontend Platform Lead", "2022–2025",
+     "Consumer fintech. Led the frontend platform team and built the foundation every "
+     "frontend product shipped on, from the internal CRM to the public site."),
+    ("Tinkoff", "Staff Engineer · Frontend Platform", "2020–2022",
+     "Built the company's frontend platform. Parts were released as open source, which "
+     "is the visible tenth of it."),
+    ("Fix Group", "Senior Frontend Developer", "2018–2020",
+     "Product frontend, and the first tooling I owned rather than used."),
+    ("RTLabs", "Frontend Developer", "2014–2018",
+     "Where I started — large government-scale web applications."),
 ]
+
+RESUME_LINK = ("GET /resume", "katsuba.dev/resume.md")
 
 CONTACT_TEXT = ("This server accepts connections. If you want to talk infrastructure, "
                 "agents, or the tooling underneath both — or just argue about durable "
@@ -160,10 +179,19 @@ def build(t, v):
         el.append(text(PAD, y, title, t["fg"], 19, weight=600))
         y += 38
     kv_size = 13 if mobile else 14
-    for key, val in [("capabilities:  ", "[ building, writing, speaking ]"),
+    kv_cw = CW13 if mobile else 9.4
+    for key, val in [("capabilities:  ", "[ building, leading, writing, speaking ]"),
                      ("transports:    ", "[ github · telegram · email ]"),
                      ("status:        ", "200 OK — up and serving traffic")]:
-        el.append(text(PAD, y, f'{key}<tspan fill="{t["fg"]}">{val}</tspan>', t["faint"], kv_size, preserve=True))
+        if (len(key) + len(val)) * kv_cw > CONTENT:
+            # Narrow card: the value gets its own indented line rather than
+            # running off the edge.
+            el.append(text(PAD, y, key.strip(), t["faint"], kv_size))
+            y += 22
+            el.append(text(PAD + 14, y, val, t["fg"], kv_size))
+        else:
+            el.append(text(PAD, y, f'{key}<tspan fill="{t["fg"]}">{val}</tspan>',
+                           t["faint"], kv_size, preserve=True))
         y += 26
     y += 14
 
@@ -223,20 +251,28 @@ def build(t, v):
     y += 4
 
     # ---- GET /experience
-    section("GET", "/experience", "200 OK · 4 roles · résumé", "200 OK · 4")
-    for i, (company, role, period) in enumerate(ROLES):
+    section("GET", "/experience", f"200 OK · {len(ROLES)} roles · résumé", f"200 OK · {len(ROLES)}")
+    for i, (company, role, period, summary) in enumerate(ROLES):
         el.append(text(PAD, y, esc(company), t["fg"], 14, weight=600))
         el.append(text(W - PAD, y, period, t["faint"], 13, anchor="end"))
         if mobile:
             y += 22
             el.append(text(PAD, y, esc(role), t["muted"], 13))
         else:
-            el.append(text(380, y, esc(role), t["muted"], 13))
-        y += 18
+            # Role sits right after the company name, as on the site — the roles
+            # are long enough now that a fixed column would run into the period.
+            el.append(text(PAD + len(company) * CW18 * 14 / 18 + 14, y, esc(role), t["muted"], 13))
+        y += 22
+        paragraph(summary)
+        y += 8
         if i < len(ROLES) - 1:
             divider(full=False)
-        y += 22
-    y -= 2
+            y += 22
+    y += 6
+    el.append(text(PAD, y, f'→ <tspan fill="{t["fg"]}" font-weight="600">{RESUME_LINK[0]}</tspan>'
+                          f'  <tspan fill="{t["muted"]}">{RESUME_LINK[1]}</tspan>',
+                   t["faint"], 13, preserve=True))
+    y += 16
 
     # ---- POST /contact
     section("POST", "/contact", "accepting connections", "accepting")
